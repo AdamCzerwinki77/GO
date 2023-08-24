@@ -10,7 +10,7 @@ var (
 )
 
 func Connect() {
-	d, err := gorm.Open("mysql", "aasadsdadad")
+	d, err := gorm.Open("mysql", "tbd") //open connections to MySql DB, user,pw
 	if err != nil {
 		panic(err)
 	}
